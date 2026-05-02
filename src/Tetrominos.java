@@ -1,3 +1,4 @@
+package src;
 import java.awt.Color;
 import java.util.Random;
 
@@ -12,13 +13,14 @@ public enum Tetrominos {
 
     I (new int[][][] {
         {
-            {1,1,1,1}
-        },
-        {
             {1},
             {1},
             {1},
             {1}
+        },
+        
+        {
+            {1,1,1,1}
         }
     },Color.RED),
 
@@ -81,7 +83,7 @@ public enum Tetrominos {
             {1,1},
             {0,1}
         }
-    },Color.BLUE),
+    },Color.CYAN),
 
     T (new int[][][] {      //4 góc quay
         {
